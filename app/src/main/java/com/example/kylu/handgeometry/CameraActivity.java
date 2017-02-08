@@ -40,6 +40,8 @@ import java.util.List;
 import java.util.Map;
 
 
+
+
 public class CameraActivity extends Activity implements CvCameraViewListener2 {
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
