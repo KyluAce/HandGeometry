@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.9"
+        android:background="@android:color/white">
+
+        <com.zespolowe.handgeometry.CameraContour
+            android:id="@+id/MainActivityCameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="cameraClick"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.065"
+        android:background="#000000">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:onClick="cameraActiv" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
